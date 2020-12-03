@@ -1,27 +1,27 @@
-
-body{
-    padding:0.50px;
-    background-color: rgb(192, 243, 243);
+body {
+    background-color: rgb(246, 248, 237);
 }
-
-
-#My_simple_website{
-    border: 0.5px solid black;
-    margin: 0px auto;
-    background-color:rgb(190, 24, 24) ;
+.block{
+    width:750; text-align: center; background-color: rgba(199, 8, 8, 0.74);
+    color:white;
 }
-
-#sunset{
-    border: 0.5px solid rgb(192, 243, 243);
+.h1{
+    text-align: center;
 }
-
-#Copyright{
-    text-align:center;
-    font-size:20px;
-    color:white ;
-    font-weight:normal; <!-- жирность текста bold_жирный -->
-    background-color:black;
-    border:1px solidcolor:black;
-    margin-bottom:0px;
-
+.block1{
+    width:750;       
+}
+.container{
+    display: flex; 
+}
+.img{
+    border: dashed; width:73px; margin-left: 2px;
+    margin-right: 2px; margin-top: 2px; margin-bottom: 2px;
+}
+.copyright{
+    background-color: rgb(0, 0, 0);
+    color: white ;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold; margin-bottom: 3px;
 }
